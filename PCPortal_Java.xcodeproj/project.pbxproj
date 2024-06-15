@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678BA42166FEA43495AE0F6B /* Pods_PCPortal_Java_PCPortal_JavaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 214A8D88F48D7940587AEDFD /* Pods_PCPortal_Java_PCPortal_JavaUITests.framework */; };
+		BC25CC57627D76D188B664E1 /* Pods_PCPortal_Java.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D0AA7594B986BF3C55DEE62 /* Pods_PCPortal_Java.framework */; };
+		D60FA69F28344BBC00F3CC25 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FA69E28344BBC00F3CC25 /* CheckBox.swift */; };
+		D62B1AB72833C4DE00CEBA06 /* FindUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62B1AB62833C4DE00CEBA06 /* FindUs.swift */; };
+		D643E7902C1C9B950085069E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643E78F2C1C9B950085069E /* ViewModel.swift */; };
+		D64B06402C1CD35300E1225F /* Biography.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B063F2C1CD35300E1225F /* Biography.swift */; };
+		D64B06422C1CD37500E1225F /* BiographyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B06412C1CD37500E1225F /* BiographyViewModel.swift */; };
+		D64B06442C1CD44A00E1225F /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B06432C1CD44A00E1225F /* Books.swift */; };
+		D64B06462C1CD46300E1225F /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B06452C1CD46300E1225F /* BooksViewModel.swift */; };
+		D64B06482C1CE31300E1225F /* CheckBoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64B06472C1CE31300E1225F /* CheckBoxModel.swift */; };
+		D6547F3228175F1400E0AD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6547F3128175F1400E0AD04 /* LaunchScreen.storyboard */; };
+		D6B1A9B32834E10100C3BF94 /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D6EAAA862816D3EA001EAFE7 /* videoplayback.mp4 */; };
+		D6EAAA892816D417001EAFE7 /* History-Java.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EAAA882816D417001EAFE7 /* History-Java.swift */; };
+		D6EAAA8C2816D900001EAFE7 /* GameJava.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EAAA8B2816D900001EAFE7 /* GameJava.swift */; };
+		D6EAAA8F2816D94F001EAFE7 /* GameQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EAAA8E2816D94F001EAFE7 /* GameQuestion.swift */; };
+		D6FD2AB8281687CC00A08AD7 /* PCPortal_JavaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AB7281687CC00A08AD7 /* PCPortal_JavaApp.swift */; };
+		D6FD2ABA281687CC00A08AD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AB9281687CC00A08AD7 /* ContentView.swift */; };
+		D6FD2ABC281687D000A08AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FD2ABB281687D000A08AD7 /* Assets.xcassets */; };
+		D6FD2ABF281687D000A08AD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FD2ABE281687D000A08AD7 /* Preview Assets.xcassets */; };
+		D6FD2AC9281687D000A08AD7 /* PCPortal_JavaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AC8281687D000A08AD7 /* PCPortal_JavaTests.swift */; };
+		D6FD2AD3281687D000A08AD7 /* PCPortal_JavaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AD2281687D000A08AD7 /* PCPortal_JavaUITests.swift */; };
+		D6FD2AD5281687D000A08AD7 /* PCPortal_JavaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AD4281687D000A08AD7 /* PCPortal_JavaUITestsLaunchTests.swift */; };
+		D6FD2AE32816881400A08AD7 /* JamesGossling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AE22816881400A08AD7 /* JamesGossling.swift */; };
+		D6FD2AE628168B8600A08AD7 /* JavaBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FD2AE528168B8600A08AD7 /* JavaBooks.swift */; };
+		FE6A317FC45E1CDF9984AB96 /* Pods_PCPortal_JavaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9688BBA8FF820FAF9C18B77B /* Pods_PCPortal_JavaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6FD2AC5281687D000A08AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FD2AAC281687CC00A08AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FD2AB3281687CC00A08AD7;
+			remoteInfo = PCPortal_Java;
+		};
+		D6FD2ACF281687D000A08AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FD2AAC281687CC00A08AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FD2AB3281687CC00A08AD7;
+			remoteInfo = PCPortal_Java;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B05DD0824DD81080890F0B /* Pods-PCPortal_JavaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCPortal_JavaTests.release.xcconfig"; path = "Target Support Files/Pods-PCPortal_JavaTests/Pods-PCPortal_JavaTests.release.xcconfig"; sourceTree = "<group>"; };
+		09DD1F80DD8B33032573A02A /* Pods-PCPortal_Java-PCPortal_JavaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCPortal_Java-PCPortal_JavaUITests.debug.xcconfig"; path = "Target Support Files/Pods-PCPortal_Java-PCPortal_JavaUITests/Pods-PCPortal_Java-PCPortal_JavaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B9F0F3277E66C53A2608B39 /* Pods-PCPortal_Java.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCPortal_Java.release.xcconfig"; path = "Target Support Files/Pods-PCPortal_Java/Pods-PCPortal_Java.release.xcconfig"; sourceTree = "<group>"; };
+		214A8D88F48D7940587AEDFD /* Pods_PCPortal_Java_PCPortal_JavaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCPortal_Java_PCPortal_JavaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0AA7594B986BF3C55DEE62 /* Pods_PCPortal_Java.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCPortal_Java.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9688BBA8FF820FAF9C18B77B /* Pods_PCPortal_JavaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCPortal_JavaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		980AC8C4C99C910D5739A19A /* Pods-PCPortal_JavaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCPortal_JavaTests.debug.xcconfig"; path = "Target Support Files/Pods-PCPortal_JavaTests/Pods-PCPortal_JavaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD040F03BAF0DF7A0017F574 /* Pods-PCPortal_Java-PCPortal_JavaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCPortal_Java-PCPortal_JavaUITests.release.xcconfig"; path = "Target Support Files/Pods-PCPortal_Java-PCPortal_JavaUITests/Pods-PCPortal_Java-PCPortal_JavaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D60FA69E28344BBC00F3CC25 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		D62B1AB62833C4DE00CEBA06 /* FindUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUs.swift; sourceTree = "<group>"; };
+		D643E78F2C1C9B950085069E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D64B063F2C1CD35300E1225F /* Biography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biography.swift; sourceTree = "<group>"; };
+		D64B06412C1CD37500E1225F /* BiographyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiographyViewModel.swift; sourceTree = "<group>"; };
+		D64B06432C1CD44A00E1225F /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		D64B06452C1CD46300E1225F /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		D64B06472C1CE31300E1225F /* CheckBoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxModel.swift; sourceTree = "<group>"; };
+		D6547F3128175F1400E0AD04 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6EAAA862816D3EA001EAFE7 /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoplayback.mp4; sourceTree = "<group>"; };
+		D6EAAA882816D417001EAFE7 /* History-Java.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "History-Java.swift"; sourceTree = "<group>"; };
+		D6EAAA8B2816D900001EAFE7 /* GameJava.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameJava.swift; sourceTree = "<group>"; };
+		D6EAAA8E2816D94F001EAFE7 /* GameQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameQuestion.swift; sourceTree = "<group>"; };
+		D6FD2AB4281687CC00A08AD7 /* PCPortal_Java.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCPortal_Java.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FD2AB7281687CC00A08AD7 /* PCPortal_JavaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortal_JavaApp.swift; sourceTree = "<group>"; };
+		D6FD2AB9281687CC00A08AD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6FD2ABB281687D000A08AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FD2ABE281687D000A08AD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6FD2AC4281687D000A08AD7 /* PCPortal_JavaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCPortal_JavaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FD2AC8281687D000A08AD7 /* PCPortal_JavaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortal_JavaTests.swift; sourceTree = "<group>"; };
+		D6FD2ACE281687D000A08AD7 /* PCPortal_JavaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PCPortal_JavaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FD2AD2281687D000A08AD7 /* PCPortal_JavaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortal_JavaUITests.swift; sourceTree = "<group>"; };
+		D6FD2AD4281687D000A08AD7 /* PCPortal_JavaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPortal_JavaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6FD2AE22816881400A08AD7 /* JamesGossling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamesGossling.swift; sourceTree = "<group>"; };
+		D6FD2AE528168B8600A08AD7 /* JavaBooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavaBooks.swift; sourceTree = "<group>"; };
+		F51949D37DE395B8007DE7CA /* Pods-PCPortal_Java.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCPortal_Java.debug.xcconfig"; path = "Target Support Files/Pods-PCPortal_Java/Pods-PCPortal_Java.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6FD2AB1281687CC00A08AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC25CC57627D76D188B664E1 /* Pods_PCPortal_Java.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FD2AC1281687D000A08AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE6A317FC45E1CDF9984AB96 /* Pods_PCPortal_JavaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FD2ACB281687D000A08AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678BA42166FEA43495AE0F6B /* Pods_PCPortal_Java_PCPortal_JavaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78B7D7F9F21C5C3000E46CED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F51949D37DE395B8007DE7CA /* Pods-PCPortal_Java.debug.xcconfig */,
+				0B9F0F3277E66C53A2608B39 /* Pods-PCPortal_Java.release.xcconfig */,
+				09DD1F80DD8B33032573A02A /* Pods-PCPortal_Java-PCPortal_JavaUITests.debug.xcconfig */,
+				AD040F03BAF0DF7A0017F574 /* Pods-PCPortal_Java-PCPortal_JavaUITests.release.xcconfig */,
+				980AC8C4C99C910D5739A19A /* Pods-PCPortal_JavaTests.debug.xcconfig */,
+				02B05DD0824DD81080890F0B /* Pods-PCPortal_JavaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		954375072FC9E4D1FFA9F4D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D0AA7594B986BF3C55DEE62 /* Pods_PCPortal_Java.framework */,
+				214A8D88F48D7940587AEDFD /* Pods_PCPortal_Java_PCPortal_JavaUITests.framework */,
+				9688BBA8FF820FAF9C18B77B /* Pods_PCPortal_JavaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60FA69D28344BAC00F3CC25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D60FA69E28344BBC00F3CC25 /* CheckBox.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D62B1AB32833C4A000CEBA06 /* FindUs */ = {
+			isa = PBXGroup;
+			children = (
+				D62B1AB62833C4DE00CEBA06 /* FindUs.swift */,
+			);
+			path = FindUs;
+			sourceTree = "<group>";
+		};
+		D643E78E2C1C9B770085069E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D643E78F2C1C9B950085069E /* ViewModel.swift */,
+				D64B06412C1CD37500E1225F /* BiographyViewModel.swift */,
+				D64B06452C1CD46300E1225F /* BooksViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6EAAA872816D3F8001EAFE7 /* HistoryJava */ = {
+			isa = PBXGroup;
+			children = (
+				D6EAAA882816D417001EAFE7 /* History-Java.swift */,
+			);
+			path = HistoryJava;
+			sourceTree = "<group>";
+		};
+		D6EAAA8A2816D8EF001EAFE7 /* GameJava */ = {
+			isa = PBXGroup;
+			children = (
+				D6EAAA8B2816D900001EAFE7 /* GameJava.swift */,
+			);
+			path = GameJava;
+			sourceTree = "<group>";
+		};
+		D6EAAA8D2816D93B001EAFE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6EAAA8E2816D94F001EAFE7 /* GameQuestion.swift */,
+				D64B063F2C1CD35300E1225F /* Biography.swift */,
+				D64B06432C1CD44A00E1225F /* Books.swift */,
+				D64B06472C1CE31300E1225F /* CheckBoxModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6FD2AAB281687CC00A08AD7 = {
+			isa = PBXGroup;
+			children = (
+				D6EAAA862816D3EA001EAFE7 /* videoplayback.mp4 */,
+				D6FD2AB6281687CC00A08AD7 /* PCPortal_Java */,
+				D6FD2AC7281687D000A08AD7 /* PCPortal_JavaTests */,
+				D6FD2AD1281687D000A08AD7 /* PCPortal_JavaUITests */,
+				D6FD2AB5281687CC00A08AD7 /* Products */,
+				78B7D7F9F21C5C3000E46CED /* Pods */,
+				954375072FC9E4D1FFA9F4D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D6FD2AB5281687CC00A08AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD2AB4281687CC00A08AD7 /* PCPortal_Java.app */,
+				D6FD2AC4281687D000A08AD7 /* PCPortal_JavaTests.xctest */,
+				D6FD2ACE281687D000A08AD7 /* PCPortal_JavaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6FD2AB6281687CC00A08AD7 /* PCPortal_Java */ = {
+			isa = PBXGroup;
+			children = (
+				D643E78E2C1C9B770085069E /* ViewModel */,
+				D60FA69D28344BAC00F3CC25 /* View */,
+				D6EAAA8D2816D93B001EAFE7 /* Model */,
+				D6EAAA8A2816D8EF001EAFE7 /* GameJava */,
+				D6EAAA872816D3F8001EAFE7 /* HistoryJava */,
+				D6FD2AE12816880100A08AD7 /* JamesGossling */,
+				D6FD2AE428168B7600A08AD7 /* JavaBooks */,
+				D62B1AB32833C4A000CEBA06 /* FindUs */,
+				D6FD2AB7281687CC00A08AD7 /* PCPortal_JavaApp.swift */,
+				D6FD2AB9281687CC00A08AD7 /* ContentView.swift */,
+				D6FD2ABB281687D000A08AD7 /* Assets.xcassets */,
+				D6FD2ABD281687D000A08AD7 /* Preview Content */,
+				D6547F3128175F1400E0AD04 /* LaunchScreen.storyboard */,
+			);
+			path = PCPortal_Java;
+			sourceTree = "<group>";
+		};
+		D6FD2ABD281687D000A08AD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD2ABE281687D000A08AD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6FD2AC7281687D000A08AD7 /* PCPortal_JavaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD2AC8281687D000A08AD7 /* PCPortal_JavaTests.swift */,
+			);
+			path = PCPortal_JavaTests;
+			sourceTree = "<group>";
+		};
+		D6FD2AD1281687D000A08AD7 /* PCPortal_JavaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD2AD2281687D000A08AD7 /* PCPortal_JavaUITests.swift */,
+				D6FD2AD4281687D000A08AD7 /* PCPortal_JavaUITestsLaunchTests.swift */,
+			);
+			path = PCPortal_JavaUITests;
+			sourceTree = "<group>";
+		};
+		D6FD2AE12816880100A08AD7 /* JamesGossling */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD2AE22816881400A08AD7 /* JamesGossling.swift */,
+			);
+			path = JamesGossling;
+			sourceTree = "<group>";
+		};
+		D6FD2AE428168B7600A08AD7 /* JavaBooks */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD2AE528168B8600A08AD7 /* JavaBooks.swift */,
+			);
+			path = JavaBooks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6FD2AB3281687CC00A08AD7 /* PCPortal_Java */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FD2AD8281687D000A08AD7 /* Build configuration list for PBXNativeTarget "PCPortal_Java" */;
+			buildPhases = (
+				71827E01B6C581B3DCDBBCDD /* [CP] Check Pods Manifest.lock */,
+				D6FD2AB0281687CC00A08AD7 /* Sources */,
+				D6FD2AB1281687CC00A08AD7 /* Frameworks */,
+				D6FD2AB2281687CC00A08AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCPortal_Java;
+			packageProductDependencies = (
+			);
+			productName = PCPortal_Java;
+			productReference = D6FD2AB4281687CC00A08AD7 /* PCPortal_Java.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FD2AC3281687D000A08AD7 /* PCPortal_JavaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FD2ADB281687D000A08AD7 /* Build configuration list for PBXNativeTarget "PCPortal_JavaTests" */;
+			buildPhases = (
+				7FE2CD2DA42059BD7D6785D9 /* [CP] Check Pods Manifest.lock */,
+				D6FD2AC0281687D000A08AD7 /* Sources */,
+				D6FD2AC1281687D000A08AD7 /* Frameworks */,
+				D6FD2AC2281687D000A08AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FD2AC6281687D000A08AD7 /* PBXTargetDependency */,
+			);
+			name = PCPortal_JavaTests;
+			productName = PCPortal_JavaTests;
+			productReference = D6FD2AC4281687D000A08AD7 /* PCPortal_JavaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FD2ACD281687D000A08AD7 /* PCPortal_JavaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FD2ADE281687D000A08AD7 /* Build configuration list for PBXNativeTarget "PCPortal_JavaUITests" */;
+			buildPhases = (
+				D51DAD188E3C8AD652351B1B /* [CP] Check Pods Manifest.lock */,
+				D6FD2ACA281687D000A08AD7 /* Sources */,
+				D6FD2ACB281687D000A08AD7 /* Frameworks */,
+				D6FD2ACC281687D000A08AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FD2AD0281687D000A08AD7 /* PBXTargetDependency */,
+			);
+			name = PCPortal_JavaUITests;
+			productName = PCPortal_JavaUITests;
+			productReference = D6FD2ACE281687D000A08AD7 /* PCPortal_JavaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FD2AAC281687CC00A08AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D6FD2AB3281687CC00A08AD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					D6FD2AC3281687D000A08AD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D6FD2AB3281687CC00A08AD7;
+					};
+					D6FD2ACD281687D000A08AD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = D6FD2AB3281687CC00A08AD7;
+					};
+				};
+			};
+			buildConfigurationList = D6FD2AAF281687CC00A08AD7 /* Build configuration list for PBXProject "PCPortal_Java" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6FD2AAB281687CC00A08AD7;
+			packageReferences = (
+			);
+			productRefGroup = D6FD2AB5281687CC00A08AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FD2AB3281687CC00A08AD7 /* PCPortal_Java */,
+				D6FD2AC3281687D000A08AD7 /* PCPortal_JavaTests */,
+				D6FD2ACD281687D000A08AD7 /* PCPortal_JavaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6FD2AB2281687CC00A08AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B1A9B32834E10100C3BF94 /* videoplayback.mp4 in Resources */,
+				D6547F3228175F1400E0AD04 /* LaunchScreen.storyboard in Resources */,
+				D6FD2ABF281687D000A08AD7 /* Preview Assets.xcassets in Resources */,
+				D6FD2ABC281687D000A08AD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FD2AC2281687D000A08AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FD2ACC281687D000A08AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71827E01B6C581B3DCDBBCDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PCPortal_Java-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE2CD2DA42059BD7D6785D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PCPortal_JavaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51DAD188E3C8AD652351B1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PCPortal_Java-PCPortal_JavaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6FD2AB0281687CC00A08AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D643E7902C1C9B950085069E /* ViewModel.swift in Sources */,
+				D64B06442C1CD44A00E1225F /* Books.swift in Sources */,
+				D62B1AB72833C4DE00CEBA06 /* FindUs.swift in Sources */,
+				D64B06462C1CD46300E1225F /* BooksViewModel.swift in Sources */,
+				D64B06482C1CE31300E1225F /* CheckBoxModel.swift in Sources */,
+				D64B06402C1CD35300E1225F /* Biography.swift in Sources */,
+				D6FD2ABA281687CC00A08AD7 /* ContentView.swift in Sources */,
+				D60FA69F28344BBC00F3CC25 /* CheckBox.swift in Sources */,
+				D6FD2AE32816881400A08AD7 /* JamesGossling.swift in Sources */,
+				D6FD2AE628168B8600A08AD7 /* JavaBooks.swift in Sources */,
+				D6EAAA8C2816D900001EAFE7 /* GameJava.swift in Sources */,
+				D64B06422C1CD37500E1225F /* BiographyViewModel.swift in Sources */,
+				D6FD2AB8281687CC00A08AD7 /* PCPortal_JavaApp.swift in Sources */,
+				D6EAAA8F2816D94F001EAFE7 /* GameQuestion.swift in Sources */,
+				D6EAAA892816D417001EAFE7 /* History-Java.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FD2AC0281687D000A08AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FD2AC9281687D000A08AD7 /* PCPortal_JavaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FD2ACA281687D000A08AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FD2AD3281687D000A08AD7 /* PCPortal_JavaUITests.swift in Sources */,
+				D6FD2AD5281687D000A08AD7 /* PCPortal_JavaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6FD2AC6281687D000A08AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FD2AB3281687CC00A08AD7 /* PCPortal_Java */;
+			targetProxy = D6FD2AC5281687D000A08AD7 /* PBXContainerItemProxy */;
+		};
+		D6FD2AD0281687D000A08AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FD2AB3281687CC00A08AD7 /* PCPortal_Java */;
+			targetProxy = D6FD2ACF281687D000A08AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6FD2AD6281687D000A08AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6FD2AD7281687D000A08AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6FD2AD9281687D000A08AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F51949D37DE395B8007DE7CA /* Pods-PCPortal_Java.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PCPortal_Java/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PCPortal-Java";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6FD2ADA281687D000A08AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B9F0F3277E66C53A2608B39 /* Pods-PCPortal_Java.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PCPortal_Java/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PCPortal-Java";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6FD2ADC281687D000A08AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 980AC8C4C99C910D5739A19A /* Pods-PCPortal_JavaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PCPortal-JavaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCPortal_Java.app/PCPortal_Java";
+			};
+			name = Debug;
+		};
+		D6FD2ADD281687D000A08AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B05DD0824DD81080890F0B /* Pods-PCPortal_JavaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PCPortal-JavaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PCPortal_Java.app/PCPortal_Java";
+			};
+			name = Release;
+		};
+		D6FD2ADF281687D000A08AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DD1F80DD8B33032573A02A /* Pods-PCPortal_Java-PCPortal_JavaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PCPortal-JavaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PCPortal_Java;
+			};
+			name = Debug;
+		};
+		D6FD2AE0281687D000A08AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD040F03BAF0DF7A0017F574 /* Pods-PCPortal_Java-PCPortal_JavaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PCPortal-JavaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PCPortal_Java;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6FD2AAF281687CC00A08AD7 /* Build configuration list for PBXProject "PCPortal_Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FD2AD6281687D000A08AD7 /* Debug */,
+				D6FD2AD7281687D000A08AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FD2AD8281687D000A08AD7 /* Build configuration list for PBXNativeTarget "PCPortal_Java" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FD2AD9281687D000A08AD7 /* Debug */,
+				D6FD2ADA281687D000A08AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FD2ADB281687D000A08AD7 /* Build configuration list for PBXNativeTarget "PCPortal_JavaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FD2ADC281687D000A08AD7 /* Debug */,
+				D6FD2ADD281687D000A08AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FD2ADE281687D000A08AD7 /* Build configuration list for PBXNativeTarget "PCPortal_JavaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FD2ADF281687D000A08AD7 /* Debug */,
+				D6FD2AE0281687D000A08AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FD2AAC281687CC00A08AD7 /* Project object */;
+}

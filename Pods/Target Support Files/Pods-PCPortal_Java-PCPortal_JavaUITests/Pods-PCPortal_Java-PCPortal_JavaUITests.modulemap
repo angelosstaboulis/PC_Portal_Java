@@ -1,0 +1,6 @@
+framework module Pods_PCPortal_Java_PCPortal_JavaUITests {
+  umbrella header "Pods-PCPortal_Java-PCPortal_JavaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
